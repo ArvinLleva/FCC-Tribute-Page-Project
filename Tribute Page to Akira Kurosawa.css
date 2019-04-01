@@ -2,3 +2,8 @@
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+.film-photo {
+    width: 1280px;
+    height: 853.33px;
+}
