@@ -3,8 +3,23 @@
     grid-template-columns: auto auto auto;
 }
 
+#main-title {
+    text-align: center;
+}
 
+#img-div {
+    position: center;
+}
+
+#filmography-title{
+    text-align: center;
+}
+
+.film-text {
+    text-align: center;
+}
 .film-photo {
     max-width: 100%;
     height: auto;
+    position:relative;
 }
