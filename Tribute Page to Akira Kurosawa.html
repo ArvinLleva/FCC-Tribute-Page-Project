@@ -1,273 +1,225 @@
-<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet"  />
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-<link href="Tribute Page to Akira Kurosawa.css" rel="stylesheet">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+
+<!-- The Film Photos come from this link https://imgur.com/a/AwuKYOT -->
+<!DOCTYPE html>
+<link rel="stylesheet" href="Tribute Page to Akira Kurosawa.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display" >
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
 
 
-<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title id="title">Tribute Page to Akira Kurosawa</title>
+    </head>
+    <body>
+        <main id="main" class="main-container">
+          <div class="top-section-container">  
+            <header id="main-title">
+                Akira Kurosawa: The Master of Cinema
+            </header>
+            <div id="img-div">
+                <img id="image" src="https://image.ibb.co/jYRTaw/kurosawa.png" alt="Akira Kurosawa w/quote" class="img-responsive">
+                <figcaption id="img-caption">Arguably the most celebrated Japanese filmmaker of all time, Akira Kurosawa had a career that spanned from the Second World War to the early nineties and that stands as a monument of artistic, entertainment, and personal achievement. His best-known films remain his samurai epics Seven Samurai and Yojimbo, but his intimate dramas, such as Ikiru and High and Low, are just as searing. The first serious phase of Kurosawa’s career came during the postwar era, with Drunken Angel and Stray Dog, gritty dramas about people on the margins of society that featured the first notable appearances by Toshiro Mifune, the director’s longtime leading man. Kurosawa would subsequently gain international fame with Rashomon, a breakthrough in nonlinear narrative and sumptuous visuals. Following a personal breakdown in the late sixties, Kurosawa rebounded by expanding his dark brand of humanism into new stylistic territory, with films such as Kagemusha and Ran, visionary, color, epic ruminations on modern man and nature.</figcaption>
+            </div>
+          </div>
+            <div id="tribute-info" class="filmography-container">
+                <h2 id="filmography-title">
+                    The Filmography of Akira Kurosawa
+                </h2>
+                <div id="filmography" >
+                    <figure id="figure-1">
+                        <a href="https://en.wikipedia.org/wiki/Sanshiro_Sugata" target="_blank">
+                          <img src="https://i.imgur.com/OeR78Hb.jpg" alt="Sanshiro Sugata" class="film-photo"></a>
+                        <figcaption class="film-text">1943 - Sanshiro Sugata </figcaption>
+                    </figure>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tribute to Akira Kurosawa</title>
-</head>
+                    <figure id="figure-2"> 
+                        <a href="https://en.wikipedia.org/wiki/The_Most_Beautiful" target="_blank">
+                          <img src="https://i.imgur.com/Dyn6dAh.jpg" alt="The Most Beautiful" class="film-photo"></a>
+                        <figcaption class="film-text">1944 - The Most Beautiful</figcaption>
+                    </figure>
 
-<body>
+                    <figure id="figure-3">
+                        <a href="https://en.wikipedia.org/wiki/Sanshiro_Sugata_Part_II" target="_blank">
+                          <img src="https://i.imgur.com/vL2Bt48.jpg" alt="Sanshiro Sugata Part 2" class="film-photo"></a>
+                        <figcaption class="film-text">1945 - Sanshiro Sugata Part 2</figcaption>
+                    </figure>
 
-  <main class="container container-fluid">
+                    <figure id="figure-4">
+                        <a href="https://en.wikipedia.org/wiki/The_Men_Who_Tread_on_the_Tiger%27s_Tail" target="_blank">
+                          <img src="https://i.imgur.com/Cn7qns5.jpg" alt="The Men Who Tread on the Tiger's Tail" class="film-photo"></a>
+                        <figcaption class="film-text">1945 - The Men Who Tread on the Tiger's Tail</figcaption>
+                    </figure>
 
-    <!--Title -->
-    <header class="well" id="header-well">
-      <h1 id="main-title">Akira Kurosawa: The Master of Cinema </h1>
+                    <figure id="figure-5">
+                        <a href="https://en.wikipedia.org/wiki/No_Regrets_for_Our_Youth" target="_blank">
+                           <img src="https://i.imgur.com/wMJzAeI.jpg" alt="No Regrets for Our Youth" class="film-photo"></a>
+                        <figcaption class="film-text">1946 - No Regrets for Our Youth</figcaption>
+                    </figure>
 
-      <div class="kurosawa-photo">
-        <img src="https://image.ibb.co/jYRTaw/kurosawa.png" alt="Akira Kurosawa" class="img-responsive" id="kurosawa">
-       <!-- This was to create the text within the picture and then take a screenshot of it to replace the old one to fix the scaling between resolutions.
-        <div class="quote1 "> "There is nothing</div>
-        <div class="quote2"> that says more</div>
-        <div class="quote3"> about its creator</div>
-        <div class="quote4"> than the work  </div>
-        <div class="quote5"> itself." </div>
-        <div class="quote6">- Akira Kurosawa </div>
--->
-      </div>
-<div class="description">Arguably the most celebrated Japanese filmmaker of all time, Akira Kurosawa had a career that spanned from the Second World War to the early nineties and that stands as a monument of artistic, entertainment, and personal achievement. His best-known films remain his samurai epics Seven Samurai and Yojimbo, but his intimate dramas, such as Ikiru and High and Low, are just as searing. The first serious phase of Kurosawa’s career came during the postwar era, with Drunken Angel and Stray Dog, gritty dramas about people on the margins of society that featured the first notable appearances by Toshiro Mifune, the director’s longtime leading man. Kurosawa would subsequently gain international fame with Rashomon, a breakthrough in nonlinear narrative and sumptuous visuals. Following a personal breakdown in the late sixties, Kurosawa rebounded by expanding his dark brand of humanism into new stylistic territory, with films such as Kagemusha and Ran, visionary, color, epic ruminations on modern man and nature.</div>
-    </header>
-    <!--Title End-->
+                    <figure id="figure-6">
+                        <a href="https://en.wikipedia.org/wiki/One_Wonderful_Sunday" target="_blank">
+                          <img src="https://i.imgur.com/KRuCdMT.jpg" alt="One Wonderful Sunday" class="film-photo"></a>
+                        <figcaption class="film-text"> 1947 - One Wonderful Sunday</figcaption>
+                    </figure>
 
-    <div class="well" id="filmography-well">
-      <!--Filmography -->
-      <h1 id="filmography-title">The Filmography of Akira Kurosawa</h1>
-      <!--First Row  -->
-      <div class="row">
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Sanshiro_Sugata">
-            <img src="https://briandanacamp.files.wordpress.com/2015/11/vlcsnap-2015-11-18-07h29m36s61.png" alt="Sanshiro Sugata" id="film-photo"></a>
+                    <figure id="figure-7">
+                        <a href="https://en.wikipedia.org/wiki/Drunken_Angel" target="_blank">
+                          <img src="https://i.imgur.com/HwrDavs.jpg" alt="Drunken Angel" class="film-photo"></a>
+                        <figcaption class="film-text">1948 - Drunken Angel</figcaption>
+                    </figure>
 
-          <p class="film-text"> 1943 - Sanshiro Sugata</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/The_Most_Beautiful">
-            <img src="https://s3.amazonaws.com/criterion-production/stills/130041-a92d4c3d8622449215a371cecd8dee51/AK_MostBeautiful_Film_bw_original.jpg" alt="The Most Beautiful" id="film-photo"></a>
-          <p> 1944 - The Most Beautiful</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
+                    <figure id="figure-8">
+                        <a href="https://en.wikipedia.org/wiki/The_Quiet_Duel" target="_blank">
+                          <img src="https://i.imgur.com/BlPpsa9.jpg" alt="The Quiet Duel" class="film-photo"></a>
+                        <figcaption class="film-text">1949 - The Quiet Duel</figcaption>
+                    </figure>
 
-          <a href="https://en.wikipedia.org/wiki/Sanshiro_Sugata_Part_II">
-            <img src="https://s3.amazonaws.com/criterion-production/janus_stills/2822-/12522id_137_w1600.jpg" id="film-photo">
+                    <figure id="figure-9">
+                        <a href="https://en.wikipedia.org/wiki/Stray_Dog_(film)" target="_blank">
+                          <img src="https://i.imgur.com/dksAgpJ.jpg" alt="Stray Dog" class="film-photo"></a>
+                        <figcaption class="film-text">1949 - Stray Dog</figcaption>
+                    </figure>
 
-          </a>
-          <p> 1945 - Sanshiro Sugata Part 2</p>
-        </div>
+                    <figure id="figure-10">
+                        <a href="https://en.wikipedia.org/wiki/Scandal_(1950_film)" target="_blank">
+                          <img src="https://i.imgur.com/iVXlYxr.jpg" alt="Scandal" class="film-photo"></a>
+                        <figcaption class="film-text">1950 - Scandal</figcaption>
+                    </figure>
 
-        <!--First Row End -->
-        <!--Second Row -->
+                    <figure id="figure-11">
+                        <a href="https://en.wikipedia.org/wiki/Rashomon" target="_blank">
+                          <img src="https://i.imgur.com/GQInGYs.jpg" alt="Rashomon" class="film-photo"></a>
+                        <figcaption class="film-text">1950 - Rashomon</figcaption>
+                    </figure>
 
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/The_Men_Who_Tread_on_the_Tiger%27s_Tail">
-            <img src="https://www.closeupfilmcentre.com/download_file/view_inline/5918/" id="film-photo"></a>
-          <p> 1945 - The Men Who Tread on the Tiger's Tail</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
+                    <figure id="figure-12">
+                        <a href="https://en.wikipedia.org/wiki/The_Idiot_(1951_film)" target="_blank">
+                          <img src="https://i.imgur.com/vbinLbY.jpg" alt="The Idiot" class="film-photo"></a>
+                        <figcaption class="film-text">1951 - The Idiot</figcaption>
+                    </figure>
 
-          <a href="https://en.wikipedia.org/wiki/No_Regrets_for_Our_Youth">
-            <img src="http://3.bp.blogspot.com/_umfxV1bqzno/S7PlpUOAkxI/AAAAAAAAAlE/ju0kWRwPdHc/s1600/NO-REGRETS_3.jpg" alt="No Regrets for Our Youth" id="film-photo" id="film-photo"></a>
-          <p> 1946 - No Regrets for Our Youth</p>
-        </div>
+                    <figure id="figure-13">
+                        <a href="https://en.wikipedia.org/wiki/Ikiru" target="_blank">
+                          <img src="https://i.imgur.com/hRR0sgp.jpg" alt="Ikiru" class="film-photo"></a>
+                        <figcaption class="film-text">1952 - Ikiru</figcaption>
+                    </figure>
 
-        <div class="col-md-4 col-xs-4">
+                    <figure id="figure-14">
+                        <a href="https://en.wikipedia.org/wiki/Seven_Samurai" target="_blank">
+                          <img src="https://i.imgur.com/oA9ObUm.jpg" alt="Seven Samurai" class="film-photo"></a>
+                        <figcaption class="film-text">1954 - Seven Samurai</figcaption>
+                    </figure>
 
-          <a href="https://en.wikipedia.org/wiki/One_Wonderful_Sunday">
-            <img src="https://s3.amazonaws.com/criterion-production/janus_stills/1078-/888id_409_014_w1600.jpg" alt="One Wonderful Sunday" id="film-photo">
+                    <figure id="figure-15">
+                        <a href="https://en.wikipedia.org/wiki/I_Live_in_Fear" target="_blank">
+                          <img src="https://i.imgur.com/czoZDXq.jpg" alt="I Live in Fear" class="film-photo"></a>
+                        <figcaption class="film-text">1955 - I Live in Fear</figcaption>
+                    </figure>
 
-          </a>
-          <p> 1947 - One Wonderful Sunday</p>
-        </div>
+                    <figure id="figure-16">
+                        <a href="https://en.wikipedia.org/wiki/The_Lower_Depths_(1957_film)" target="_blank">
+                          <img src="https://i.imgur.com/uBUwMUy.jpg" alt="The Lower Depths" class="film-photo"></a>
+                        <figcaption class="film-text">1957 - The Lower Depths</figcaption>
+                    </figure>
 
+                    <figure id="figure-17">
+                        <a href="https://en.wikipedia.org/wiki/Throne_of_Blood" target="_blank">
+                          <img src="https://i.imgur.com/0SQFl4u.jpg" alt="Throne of Blood" class="film-photo"></a>
+                        <figcaption class="film-text">1957 - Throne of Blood</figcaption>
+                    </figure>
 
-        <!--Second Row End-->
+                    <figure id="figure-18">
+                        <a href="https://en.wikipedia.org/wiki/The_Hidden_Fortress" target="_blank">
+                          <img src="https://i.imgur.com/1frZsvn.jpg" alt="The Hidden Fortress" class="film-photo"></a>
+                        <figcaption class="film-text">1959 - The Hidden Fortress</figcaption>
+                    </figure>
 
-        <!--Third Row -->
+                    <figure id="figure-19">
+                        <a href="https://en.wikipedia.org/wiki/The_Bad_Sleep_Well" target="_blank">
+                          <img src="https://i.imgur.com/t88cvTd.jpg" alt="The Bad Sleep Well" class="film-photo"></a>
+                        <figcaption class="film-text">1960 - The Bad Sleep Well</figcaption>
+                    </figure>
 
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Drunken_Angel">
-            <img src="https://s3.amazonaws.com/criterion-production/stills/6427-1bec4238ccf94bc56cfd5815eef72397/Film_413w_DrunkenAngel_original.jpg" alt="Drunken Angel" id="film-photo"></a>
-          <p> 1948 - Drunken Angel</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/The_Quiet_Duel">
-            <img src="http://68.media.tumblr.com/tumblr_lcjx5gTOK71qf7r5lo1_r1_1280.jpg" alt="The Quiet Duel" id="film-photo"></a>
-          <p> 1949 - The Quiet Duel</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Stray_Dog_(film)">
-            <img src="https://www.trigon-film.org/en/movies/Stray_Dog/photos/large/Stray_Dogs_02.jpg" alt="Stray Dog" id="film-photo"></a>
-          <p> 1949 - Stray Dog</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Scandal_(1950_film)">
-            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTQxOTQzMzQ4MV5BMl5BanBnXkFtZTcwMDY2ODMwNw@@._V1_SY1000_CR0,0,1412,1000_AL_.jpg" alt="Scandal" id="film-photo"></a>
-          <p> 1950 - Scandal</p>
-        </div>
+                    <figure id="figure-20">
+                        <a href="https://en.wikipedia.org/wiki/Yojimbo_(film)" target="_blank">
+                          <img src="https://i.imgur.com/JtM8dM0.jpg" alt="Yojimbo" class="film-photo"></a>
+                        <figcaption class="film-text">1961 - Yojimbo</figcaption>
+                    </figure>
 
-        <!--Third Row End -->
-        <!--Fourth Row -->
+                    <figure id="figure-21">
+                        <a href="https://en.wikipedia.org/wiki/Sanjuro" target="_blank">
+                          <img src="https://i.imgur.com/ZoweVld.jpg" alt="Sanjuro" class="film-photo"></a>
+                        <figcaption class="film-text">1962 - Sanjuro</figcaption>
+                    </figure>
 
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Rashomon">
-            <img src="http://akirakurosawa.info/wp-content/uploads/2015/07/Rashomon-600x333.jpg" alt="Rashomon" id="film-photo"></a>
-          <p> 1950 - Rashomon</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/The_Idiot_(1951_film)">
-            <img src="https://s3.amazonaws.com/criterion-production/stills/129961-8598a2e502548e8e68bdd3615a275c55/Idiot_image_1_bw_original.jpg" alt="The Idiot" id="film-photo"></a>
-          <p> 1951 - The Idiot</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Ikiru">
-            <img src="http://www.classicartfilms.com/wp-content/uploads/2012/05/Ikiru-2.jpg" alt="Ikiru" id="film-photo"></a>
-          <p> 1952 - Ikiru</p>
-        </div>
+                    <figure id="figure-22">
+                        <a href="https://en.wikipedia.org/wiki/High_and_Low_(1963_film)" target="_blank">
+                          <img src="https://i.imgur.com/LgqGlsp.jpg" alt="High and Low" class="film-photo"></a>
+                        <figcaption class="film-text">1963 - High and Low</figcaption>
+                    </figure>
 
-        <!--Fourth Row End -->
+                    <figure id="figure-23">
+                        <a href="https://en.wikipedia.org/wiki/Red_Beard" target="_blank">
+                          <img src="https://i.imgur.com/vA4G35a.jpg" alt="Red Beard" class="film-photo"></a>
+                        <figcaption class="film-text">1965 - Red Beard</figcaption>
+                    </figure>
 
-        <!--Fifth Row -->
+                    <figure id="figure-24">
+                        <a href="https://en.wikipedia.org/wiki/Dodes%27ka-den" target="_blank">
+                          <img src="https://i.imgur.com/mOKLGs2.jpg" alt="Dodes'ka-den" class="film-photo"></a>
+                        <figcaption class="film-text">1970 - Dodes'ka-den</figcaption>
+                    </figure>
 
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Seven_Samurai">
-            <img src="https://nwfilm.org/app/uploads/2016/11/SevenSamurai_1954.jpg" alt="Seven Samurai" id="film-photo"></a>
-          <p> 1954 - Seven Samurai</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/I_Live_in_Fear">
-            <img src="https://assets.mubi.com/images/film/897/image-w1280.jpg?1481119555" alt="I live in Gear" id="film-photo"></a>
-          <p> 1955 - I live in Fear</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/The_Lower_Depths_(1957_film)">
-            <img src="https://s3.amazonaws.com/criterion-production/janus_stills/2172-/857id_044_w1600.jpg" alt="The Lower Depths" id="film-photo">
+                    <figure id="figure-25">
+                        <a href="https://en.wikipedia.org/wiki/Dersu_Uzala_(1975_film)" target="_blank">
+                          <img src="https://i.imgur.com/wsTUCVn.jpg" alt="Dersu Uzala" class="film-photo"></a>
+                        <figcaption class="film-text">1975 - Dersu Uzala</figcaption>
+                    </figure>
 
-          </a>
-          <p> 1957 - The Lower Depths</p>
-        </div>
+                    <figure id="figure-26">
+                        <a href="https://en.wikipedia.org/wiki/Kagemusha" target="_blank">
+                          <img src="https://i.imgur.com/v7wfz7K.jpg" alt="Kagemusha" class="film-photo"></a>
+                        <figcaption class="film-text">1980 - Kagemusha</figcaption>
+                    </figure>
 
-        <!--Fifth Row End -->
+                    <figure id="figure-27">
+                        <a href="https://en.wikipedia.org/wiki/Ran_(film)" target="_blank">
+                          <img src="https://i.imgur.com/3S8r3xO.jpg" alt="Ran" class="film-photo"></a>
+                        <figcaption class="film-text">1985 - Ran</figcaption>
+                    </figure>
 
-        <!--Sixth Row -->
+                    <figure id="figure-28">
+                        <a href="https://en.wikipedia.org/wiki/Dreams_(1990_film)" target="_blank">
+                          <img src="https://i.imgur.com/z24c1yC.jpg" alt="Dreams" class="film-photo"></a>
+                        <figcaption class="film-text">1990 - Dreams</figcaption>
+                    </figure>
 
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Throne_of_Blood">
-            <img src="https://s3.amazonaws.com/criterion-production/stills/132006-0c21d946d1cdb1176a9139e036c5a414/Film_190w_ThroneOfBlood_original.jpg" alt="Throne of Blood" id="film-photo"></a>
-          <p> 1957 - Throne of Blood</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/The_Hidden_Fortress">
-            <img src="http://ichef.bbci.co.uk/wwfeatures/live/624_351/images/live/p0/3d/k6/p03dk6cc.jpg" alt="Hidden Fortress" id="film-photo"></a>
-          <p> 1958 - The Hidden Fortress</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/The_Bad_Sleep_Well">
-            <img src="https://s3.amazonaws.com/criterion-production/janus_stills/927-/765id_020_w1600.jpg" alt="The Bad Sleep Well" id="film-photo"></a>
-          <p> 1960 - The Bad Sleep Well</p>
-        </div>
+                    <figure id="figure-29">
+                        <a href="https://en.wikipedia.org/wiki/Rhapsody_in_August" target="_blank">
+                          <img src="https://i.imgur.com/isZ4Ie5.jpg" alt="Rhapsody in August" class="film-photo"></a>
+                        <figcaption class="film-text">1991 - Rhapsody in August</figcaption>
+                    </figure>
 
-        <!--Sixth Row End -->
+                    <figure id="figure-30">
+                        <a href="https://en.wikipedia.org/wiki/Madadayo" target="_blank">
+                          <img src="https://i.imgur.com/a2oZbku.jpg" alt="Madadayo" class="film-photo"></a>
+                        <figcaption class="film-text">1993 - Madadayo</figcaption>
+                    </figure>
 
-        <!--Seventh Row -->
-
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Yojimbo_(film)">
-            <img src="https://nwfilm.org/app/uploads/2016/11/Yojimbo_1961.jpg" alt="Yojimbo" id="film-photo"></a>
-          <p> 1961 - Yojimbo</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Sanjuro">
-            <img src="http://kungfukingdom.com/wp-content/uploads/2015/04/Sanjuro-Kung-Fu-Kingdom-770x472.jpg" alt="Sanjuro" id="film-photo"></a>
-          <p> 1962 - Sanjuro</p>
-        </div>
-
-        <!--Seventh Row End -->
-
-        <!--Eighth Row -->
-
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/High_and_Low_(1963_film)">
-            <img src="http://mustseecinema.com/wp-content/uploads/2016/08/High-and-Low.jpg" alt="High and Low" id="film-photo"></a>
-          <p> 1963 - High and Low</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Red_Beard">
-            <img src="https://s3.amazonaws.com/criterion-production/stills/9733-d908a26bd5fc94886ee9496d656a1224/RedBeardw_original.jpg" alt="Red Beard" id="film-photo"></a>
-          <p> 1965 - Red Beard</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Dodes%27ka-den">
-            <img src="http://www.filmsquish.com/guts/files/images/dodesukaden4.JPG" alt="Dodes'ka-den" id="film-photo"></a>
-          <p> 1970 - Dodes'ka-den</p>
-        </div>
-
-        <!--Eighth Row End -->
-
-        <!--Ninth Row -->
-
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Dersu_Uzala_(1975_film)">
-            <img src="http://history.sffs.org/i/films/1976/Dersu_Uzala.jpg" alt="Dersu Uzala" id="film-photo"></a>
-          <p> 1975 - Dersu Uzala</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Kagemusha">
-            <img src="http://images2.static-bluray.com/reviews/1670_4.jpg" alt="Kagemusha" id="film-photo"></a>
-          <p> 1980 - Kagemusha</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Ran_(film)">
-            <img src="https://images8.alphacoders.com/425/thumb-1920-425610.jpg" alt="Ran" id="film-photo"></a>
-          <p> 1985 - Ran</p>
-        </div>
-
-        <!--Ninth Row End -->
-
-        <!--Tenth Row -->
-
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Dreams_(1990_film)">
-            <img src="https://cdn-images-1.medium.com/max/1600/0*Z_nw2_1yxI7IYX77.jpg" alt="Dreams" id="film-photo"></a>
-          <p> 1990 - Dreams</p>
-        </div>
-
-
-        <!--Tenth Row End -->
-
-        <!--Eleventh Row -->
-
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Rhapsody_in_August">
-            <img src="http://akirakurosawa.info/wp-content/uploads/2015/02/Sachiko-Murase-600x305.jpg" alt="Rhapsody in August" id="film-photo"></a>
-          <p> 1991 - Rhapsody in August</p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <a href="https://en.wikipedia.org/wiki/Madadayo">
-            <img src="http://2.bp.blogspot.com/-NleAyn1ZEIQ/UVbpjTo5oUI/AAAAAAAAC1c/vZW6TIcrJB4/w1200-h630-p-k-no-nu/Madadayo.jpg" alt="Madadayo" id="film-photo"></a>
-          <p> 1993 - Madadayo</p>
-        </div>
-        <!--Eveleventh Row End -->
-
-      </div>
-    </div>
-    <!--Filmography End-->
-
-  </main>
-  <!-- Know more about Kurosawa -->
-  <div class="container">
-    <div class="well">
-      <p class="credit">Click to learn more about <a href="https://en.wikipedia.org/wiki/Akira_Kurosawa">Akira Kurosawa</a></p>
-      <p class="credit">Coded by Arvin Lleva</p>
-    </div>
-  </div>
-  <!-- Know more about Kurosawa End-->
-</body>
-
+                </div>
+                
+            </div>
+        </main>
+    </body>
+    <footer class="footer-container">
+        <p class="credit">Click to learn more about <a href="https://en.wikipedia.org/wiki/Akira_Kurosawa" id="tribute-link" target="_blank">Akira Kurosawa</a></p>
+        <p class="credit">Coded by Arvin Lleva 04/07/2019</p>
+    </footer>
 </html>

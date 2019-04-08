@@ -1,137 +1,102 @@
-
-html body {
-  background-color: #ccc;
+#filmography {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
 }
 
-.description{
-  font-family: "Cormorant";
-  font-size: 22px;
-  margin-top:15px;
-  font-weight: 500;
+html {
+background: url(https://i.imgur.com/N6uuZI5.png);
 }
 
-#film-photo {
-  max-height: auto;
-  max-width: 100%;
-  width: 700px;
-  height: 200px;
-  display: block;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
-  opacity: 1;
+.main-container {
+background: url(https://i.imgur.com/KiYi66H.png);
+margin-top: 20px;
+border: 1px solid #999;
+border-radius: 3px;
+box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.4);
+font-family: 'Playfair Display'; 
+max-width: 1200px;
+margin: auto;
+font-weight: bold;
 }
 
-.kurosawa-photo {
-  position: relative;
-  text-align: center;
-  font-family: trajan;
+.top-section-container {
+background: url(https://i.imgur.com/ZI5EiTS.png);
+border: 1px solid #999;
+border-radius: 3px;
+box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.4);
+margin: 20px;
 }
 
-.row {
-  margin: 10px;
+.filmography-container {
+background: url(https://i.imgur.com/ZI5EiTS.png);
+border: 1px solid #999;
+border-radius: 3px;
+box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.4);
+margin: 20px;
 }
 
 #main-title {
   text-align: center;
   margin: 25px;
-  font-size:50px;
-  font-family: 'Playfair Display';
+  font-size: 50px;
+  font-family: "Playfair Display";
+
 }
 
-/*
-.quote1 {
-  position: absolute;
-  top: 130px;
-  left: 15px;
-  color: white;
-  font-size: 55px;
-  color: #fff;
-  text-shadow: #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Playfair Display';
+#filmography-title{
+text-align: center;
+font-family: "Playfair Display";  
+margin: 25px;
+font-size: 40px;
 }
-.quote2 {
-  position: absolute;
-  top: 200px;
-  left: 60px;
-  color: white;
-  font-size: 55px;
-  color: #fff;
-  text-shadow: #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Playfair Display';
-}
-.quote3 {
-  position: absolute;
-  top: 270px;
-  left: 80px;
-  color: white;
-  font-size: 55px;
-  color: #fff;
-  text-shadow: #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Playfair Display';
-}
-.quote4 {
-  position: absolute;
-  top: 340px;
-  left: 105px;
-  color: white;
-  font-size: 55px;
-  color: #fff;
-  text-shadow: #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Playfair Display';
-}
-.quote5 {
-  position: absolute;
-  top: 410px;
-  left: 140px;
-  color: white;
-  font-size: 55px;
-  color: #fff;
-  text-shadow: #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Playfair Display';
-}
-.quote6 {
-  position: absolute;
-  top: 500px;
-  left: 250px;
-  color: white;
-  font-size: 30px;
-  color: #fff;
-  text-shadow: #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased;
-  font-family: 'Playfair Display';
-}
-*/
 
-#filmography-title {
+#image { /*Image of Akira Kurosawa*/
+width: 100%;
+height: auto;
+display: block;
+border: 1px solid #999;
+border-radius: 3px;
+box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+#img-caption { /* Description of Akira Kurosawa*/
+font-family: "Cormorant";
+font-size: 22px;
+margin:15px;
+font-weight: 500;
+text-align: justify;
+}
+
+#img-div {  /*div that contains the Akira Kurosawa image and the paragraph*/
+  position: center;
+  margin: 15px;
+}
+
+.film-text { /* The films title*/
   text-align: center;
-  margin: 25px;
-  font-family: 'Playfair Display;
-  font-size: 40px;
+  margin: auto;
 }
 
-.container {
-  background-color: #fff;
-  margin-top: 20px;
-  border: 1px solid #999;
-  border-radius: 3px;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.4);
-  font-family: 'Playfair Display';
+.film-photo { 
+max-height: auto;
+max-width: 100%;
+display: block;
+transition: 0.5s ease;
+backface-visibility: hidden;
+opacity: 1;
+position: relative;
+border-radius: 1px;
+box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-#filmography-well {
-  font-weight: bold;
-}
-
-#film-photo:hover {
-  opacity: 0.3;
+.film-photo:hover {
+opacity: 0.3;
 }
 
 .credit{
-  font-weight:bold;
-  text-align:center;
+font-weight:bold;
+text-align:center;
+font-family: 'Playfair Display'; 
 }
+
